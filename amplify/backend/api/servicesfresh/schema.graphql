@@ -1,0 +1,28 @@
+type Serviceman @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  servicename: String
+  govtid: String
+  phnumber: Int
+  email: String
+  verification: String
+  photo: String
+  rating: Float
+  ratingusers: String
+  ratingcomments: String
+  gender: String
+  dob: String
+  bio: String
+  vehicle: String
+  residence: String
+  address: String
+  pincode: Int
+  mainproficiency: String
+  proficiencyskills: String
+  reportfactor: String
+  reportcomments: String
+  archivedservices: String
+  totalservices: Int
+  currentactiveservice: String
+  funds: String
+}
